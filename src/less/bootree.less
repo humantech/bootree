@@ -1,0 +1,48 @@
+.nav-tree {
+    margin: 0;
+    padding: 0;
+    
+    li {
+        padding: 4px 0 3px 16px;
+        margin: 0;
+
+        .hitarea {
+            margin-left: -16px;
+            width: 12px;
+            height: 12px;
+            display: block;
+            float: left;
+            cursor: pointer;
+        }
+
+        a { 
+            display: inline;
+            padding: 3px;
+
+            &:hover { background: none; }
+
+        }
+
+        &.nav-tree-expanded {
+
+            > ul { display: block; }
+
+            .hitarea:before { 
+                content: '▼';                                
+            }
+
+        }
+
+        &.nav-tree-collapsed {
+            
+            .hitarea:before { 
+                content: '►';
+            }
+
+        }
+
+        ul { display: none; }
+
+    }
+
+}

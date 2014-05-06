@@ -1,0 +1,31 @@
+{
+  "name": "bootree",
+  "version": "0.0.1",
+  "homepage": "https://github.com/humantech/bootree",
+  "authors": [
+    "Ricardo Lüders <ricardo@luders.com.br>"
+  ],
+  "description": "Bootstrap Tree Plugin",
+  "main": "dist/bootree.min.js",
+  "keywords": [
+    "tree",
+    "bootstrap",
+    "javascript",
+    "plugin",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo",
+    "src",
+    "README.md",
+    "package.json",
+    "Gruntfile.js",
+    "composer.json"
+  ]
+}

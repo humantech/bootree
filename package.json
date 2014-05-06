@@ -1,0 +1,42 @@
+{
+  "name": "bootree",
+  "version": "0.0.1",
+  "description": "Bootstrap Tree Plugin",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humantech/bootree.git"
+  },
+  "keywords": [
+    "tree",
+    "bootstrap",
+    "javascript",
+    "plugin",
+    "jquery"
+  ],
+  "author": [
+    {"name": "Ricardo Lüders", "email": "ricardo@luders.com.br"}
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/humantech/bootree/blob/master/LICENCE"
+  },
+  "bugs": {
+    "url": "https://github.com/humantech/bootree/issues"
+  },
+  "homepage": "https://github.com/humnatech/bootree",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-qunit": "~0.4.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "phantomjs": "~1.9.7-3",
+    "grunt-contrib-less": "~0.11.0"
+  }
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootree Example</title>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/css/bootree.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <ul id="menu" class="nav nav-list nav-tree">
+                <li> <a href="/path">Item A</a>
+                    
+                    <ul class="nav nav-list">
+                        <li><a href="#">Item 1</a>
+                        </li>
+                        <li><a href="#">Item 2</a>
+                        </li>
+                        <li> <a href="/path/to">Item 3</a>
+                            
+                            <ul class="nav nav-list">
+                                <li><a href="#">Item 3.1</a>
+                                </li>
+                                <li> <a href="/path/to/this">Item 3.2</a>
+                                    
+                                    <ul class="nav nav-list">
+                                        <li><a href="/path/to/this/guy">Item 3.2.1</a>
+                                        </li>
+                                        <li><a href="#">Item 3.2.2</a>
+                                        </li>
+                                        <li><a href="#">Item 3.2.3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Item 3.3</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Item B</a>
+                    
+                    <ul class="nav nav-list">
+                        <li><a href="#">Item 1</a>
+                        </li>
+                        <li><a href="#">Item 2</a>
+                        </li>
+                        <li><a href="#">Item 3</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Javascript -->    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://www.luders.com.br/cdn/switchclass.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <script src="../src/js/bootree.js"></script>
+    <script src="js/demo.js"></script>
+
+</body>
+</html>
